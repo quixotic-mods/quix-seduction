@@ -1,0 +1,7 @@
+##################################
+# Quixotic Seduction
+# quix_seduce_scheme_outcome_events.txt
+# Version:1.2.2.a
+# by El Ingenioso Hidalgo Don Quixote de la Mancha
+# https://DonQuixote.Games/
+##################################
