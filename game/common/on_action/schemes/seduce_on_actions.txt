@@ -1,4 +1,11 @@
-﻿
+﻿##################################
+# Quixotic Seduction
+# seduce_on_actions.txt
+# Version:1.2.2.a
+# by El Ingenioso Hidalgo Don Quixote de la Mancha
+# https://DonQuixote.Games/
+##################################
+
 ###########################
 # ONGOING EVENTS
 ###########################
@@ -49,8 +56,6 @@ seduce_ongoing_milestone_2 = {
 	}
 }
 
-
-
 ####################################################################
 # OUTCOME ON ACTIONS
 ####################################################################
@@ -62,6 +67,7 @@ seduce_ongoing_milestone_2 = {
 seduce_success = {
 	first_valid = {
 		seduce_outcome.2000 # Bedded the Pope!
+		quix_seduce_outcome.2000 # Bedded an Emperor!
 		seduce_outcome.2307 # Seduce rival/someone you dislike a lot
 		seduce_outcome.2308 # Seduce close family member
 		seduce_outcome.2306 # Spouse seduction
@@ -92,7 +98,6 @@ seduce_generic_success = {
 		100 = seduce_outcome.2309 # Sex scene is generated
 	}	
 }
-
 
 ############################
 # Fire Failure event

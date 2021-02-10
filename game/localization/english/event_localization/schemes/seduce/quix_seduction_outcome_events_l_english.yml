@@ -1,0 +1,9 @@
+l_english:
+
+ quix_seduce_outcome.2000.t:0 "Imperial Ambition"
+ quix_seduce_outcome.2000.desc:0 "[target.GetTitledFirstNamePossessive] quarters are befitting [target.GetHerHis] imperial rank. Vast, ornate, and covered in the finest works of the land. The servants have made themselves refreshingly scarce, and I am relaxing on chaise next to a pleasure pool, eating figs, and enjoying the finer things in life.\n\nThe [Target.GetTitleTierName] walks in to find me there with a smile upon [target.GetHerHis] face. [Target.GetSheHe|U] kneels down behind me and begins feeding me the fruit, and begins gently caressing me. We kiss deeply, the sweet fruit still upon my lips, before falling on the floor and rolling into the pool. I wonder, is this the greatest moment of my life?"
+ quix_seduce_outcome.2000.a:0 "Sublime Splendor!"
+ quix_seduce_outcome.2000.b:0 "Veni, vidi, vici."
+
+ quix_seduce_outcome.3000.desc:0 "[owner.GetTitledFirstName] is leisurely laying on a chaise next to a pleasure pool, eating figs, and enjoying the finer things in life.\n\nI walk in with an easy smile, and I kneel to begin feeding [owner.GetHerHim] the fruit, and gently caressing [owner.GetHerHim]. Then we kiss deeply, the sweet fruit still upon [owner.GetHerHis] lips, before falling on the floor and rolling into the pool..."
+ quix_seduce_outcome.3000.a:0 "[owner.GetTitledFirstName] seemed impressed."
