@@ -1,7 +1,0 @@
-##################################
-# Quixotic Seduction
-# quix_seduce_ongoing_events.txt
-# Version:1.2.2.a
-# by El Ingenioso Caballero Don Quixote de la Mancha
-# https://DonQuixote.Games/
-##################################

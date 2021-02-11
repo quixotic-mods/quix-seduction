@@ -7,3 +7,13 @@ l_english:
 
  quix_seduce_outcome.3000.desc:0 "[owner.GetTitledFirstName] is leisurely laying on a chaise next to a pleasure pool, eating figs, and enjoying the finer things in life.\n\nI walk in with an easy smile, and I kneel to begin feeding [owner.GetHerHim] the fruit, and gently caressing [owner.GetHerHim]. Then we kiss deeply, the sweet fruit still upon [owner.GetHerHis] lips, before falling on the floor and rolling into the pool..."
  quix_seduce_outcome.3000.a:0 "[owner.GetTitledFirstName] seemed impressed."
+
+ quix_seduce_outcome.2020.t:0 "A Roll in the Hay"
+ quix_seduce_outcome.2020.desc:0 "It's been so difficult to get [target.GetName] alone, and [target.GetSheHe] has been looking at me hungrily all day. Between family members, courtiers and councilors, servants and guards, it seems as if I won't ever get a moment with [target.GetHerHim] alone... Unless...\n\nAfter passing a note to [target.GetName], you sneak to the one part of your holding that might be empty; the hay loft. A moment later, [target.GetTitledFirstName] arrives, climbing the ladder from the stables below.\n\nYou talk for a long while in the loft, the sounds of the animals below covering  your voices. You can tell that [target.GetFirstName] is ready for this; why else would [target.GetSheHe] be laying in a hay bail beckoning you?\n\nYou disrobe and stand proudly before [target.GetHerHim], and wordlessly, they do the same in the hay, and in a moment your limbs are tangled in one another's in an act of wild animal passion befitting a barn."
+ quix_seduce_outcome.2020.a:0 "I need a secret room..."
+ quix_seduce_outcome.2020.b:0 "That was fun, but I am going to go bathe now. Goodbye."
+
+ quix_seduce_outcome.2021.t:0 "Chapel of Love"
+ quix_seduce_outcome.2021.desc:0 "[target.GetName], in an apparent display of piety, has undertaken a trial of 24 hours of prayer within the temple. Curiously though, [target.GetSheHe] invited me...\n\nWhen I arrive, late in the evening, I find [target.GetTitledFirstName] wearing simple robes, in prayer at the altar. We are completely alone... and then, as I approach the dais, [target.GetSheHe] turns to me and smiles."
+ quix_seduce_outcome.2021.a:0 "I need a secret room..."
+ quix_seduce_outcome.2021.b:0 "That was fun, but I am going to go bathe now. Goodbye."
