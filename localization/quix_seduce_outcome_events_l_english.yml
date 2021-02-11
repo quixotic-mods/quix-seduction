@@ -24,6 +24,31 @@
  quix_seduce_outcome.2030.a:0 "I love making love with you!"
  quix_seduce_outcome.2030.b:0 "A pleasure doing pleasure with you."
 
+ quix_seduce_outcome.2301.t:0 "Clandestine Tryst"
+ quix_seduce_outcome.2301.desc:0 "The farce must end. I know [target.GetTitledFirstName] wants me! And they know that I know! Our confidants have arranged a secret rendezvous at a nondescript and I shall finally put an end to the charade.\n\nWhen [target.GetTitledFirstName] arrives, I begin to make a clumsy confession of my love, until... I am silenced when [target.GetFirstName] puts a finger over my mouth. A moment later, we are both stripping off layers of clothing, with our eyes locked together. When our bodies meet, it is like magnetism, a vigorous collision. Hair is pulled, backs are scratched, and each gets a few bruises as a whirlwind of passion consumes us. I thought my lust and passion for carnality was unmatched, but yet, [target.GetTitledFirstName] seeks to surpass me!"
+ quix_seduce_outcome.2301.a:0 "I love making love with you!"
+ quix_seduce_outcome.2301.b:0 "A pleasure doing pleasure with you."
+
+ quix_seduce_outcome.2302.t:0 "Stow Away"
+ quix_seduce_outcome.2302.desc:0 "The farce must end. I know [target.GetTitledFirstName] wants me! And they know that I know! Our confidants have arranged a secret rendezvous at a nondescript and I shall finally put an end to the charade.\n\nWhen [target.GetTitledFirstName] arrives, I begin to make a clumsy confession of my love, until... I am silenced when [target.GetFirstName] puts a finger over my mouth. A moment later, we are both stripping off layers of clothing, with our eyes locked together. When our bodies meet, it is like magnetism, a vigorous collision. Hair is pulled, backs are scratched, and each gets a few bruises as a whirlwind of passion consumes us. I thought my lust and passion for carnality was unmatched, but yet, [target.GetTitledFirstName] seeks to surpass me!"
+ quix_seduce_outcome.2302.a:0 "I love making love with you!"
+ quix_seduce_outcome.2302.b:0 "A pleasure doing pleasure with you."
+
+ quix_seduce_outcome.2303.t:0 "I put a Spell on You..."
+ quix_seduce_outcome.2303.desc:0 "The farce must end. I know [target.GetTitledFirstName] wants me! And they know that I know! Our confidants have arranged a secret rendezvous at a nondescript and I shall finally put an end to the charade.\n\nWhen [target.GetTitledFirstName] arrives, I begin to make a clumsy confession of my love, until... I am silenced when [target.GetFirstName] puts a finger over my mouth. A moment later, we are both stripping off layers of clothing, with our eyes locked together. When our bodies meet, it is like magnetism, a vigorous collision. Hair is pulled, backs are scratched, and each gets a few bruises as a whirlwind of passion consumes us. I thought my lust and passion for carnality was unmatched, but yet, [target.GetTitledFirstName] seeks to surpass me!"
+ quix_seduce_outcome.2303.a:0 "Because you're mine!"
+ quix_seduce_outcome.2303.b:0 "Why are you singing?"
+
+ quix_seduce_outcome.2304.t:0 "Festival"
+ quix_seduce_outcome.2304.desc:0 "The farce must end. I know [target.GetTitledFirstName] wants me! And they know that I know! Our confidants have arranged a secret rendezvous at a nondescript and I shall finally put an end to the charade.\n\nWhen [target.GetTitledFirstName] arrives, I begin to make a clumsy confession of my love, until... I am silenced when [target.GetFirstName] puts a finger over my mouth. A moment later, we are both stripping off layers of clothing, with our eyes locked together. When our bodies meet, it is like magnetism, a vigorous collision. Hair is pulled, backs are scratched, and each gets a few bruises as a whirlwind of passion consumes us. I thought my lust and passion for carnality was unmatched, but yet, [target.GetTitledFirstName] seeks to surpass me!"
+ quix_seduce_outcome.2304.a:0 "Because you're mine!"
+ quix_seduce_outcome.2304.b:0 "Why are you singing?"
+
+ quix_seduce_outcome.2305.t:0 "Post-Feast"
+ quix_seduce_outcome.2305.desc:0 "The farce must end. I know [target.GetTitledFirstName] wants me! And they know that I know! Our confidants have arranged a secret rendezvous at a nondescript and I shall finally put an end to the charade.\n\nWhen [target.GetTitledFirstName] arrives, I begin to make a clumsy confession of my love, until... I am silenced when [target.GetFirstName] puts a finger over my mouth. A moment later, we are both stripping off layers of clothing, with our eyes locked together. When our bodies meet, it is like magnetism, a vigorous collision. Hair is pulled, backs are scratched, and each gets a few bruises as a whirlwind of passion consumes us. I thought my lust and passion for carnality was unmatched, but yet, [target.GetTitledFirstName] seeks to surpass me!"
+ quix_seduce_outcome.2305.a:0 "Because you're mine!"
+ quix_seduce_outcome.2305.b:0 "Why are you singing?"
+
  quix_seduce_outcome.3000.desc:0 "[owner.GetTitledFirstName] is leisurely laying on a chaise next to a pleasure pool, eating figs, and enjoying the finer things in life.\n\nI walk in with an easy smile, and I kneel to begin feeding [owner.GetHerHim] the fruit, and gently caressing [owner.GetHerHim]. Then we kiss deeply, the sweet fruit still upon [owner.GetHerHis] lips, before falling on the floor and rolling into the pool..."
  quix_seduce_outcome.3000.a:0 "[owner.GetTitledFirstName] seemed impressed."
 
