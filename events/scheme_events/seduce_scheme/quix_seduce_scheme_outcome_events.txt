@@ -5,12 +5,11 @@
 # by El Ingenioso Hidalgo Don Quixote de la Mancha
 # https://DonQuixote.Games/
 ##################################
-
+namespace = quix_seduce_outcome
 ######################################################
 # SUCCESS EVENTS FOR OWNER
 # 2000-2999
 ######################################################
-namespace = quix_seduce_outcome
 
 # Based Specific conditions
 # Imperial Ambition
@@ -141,7 +140,6 @@ quix_seduce_outcome.2010 = {
 		}
 	}
 }
-
 #General conditions
 # Roll in the Hay
 quix_seduce_outcome.2020 = {
@@ -261,6 +259,478 @@ quix_seduce_outcome.2021 = {
 	}
 }
 
+# Afternoon Delight
+quix_seduce_outcome.2022 = {
+	type = character_event
+	title = quix_seduce_outcome.2022.t
+	desc = quix_seduce_outcome.2022.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	immediate = {
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		owner_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #Go for both consummation and relationship
+		name = quix_seduce_outcome.2022.a
+		trigger = { seduce_outcome_become_lovers_trigger = yes } #Enabled if a player target said "lovers please" or target is AI
+		
+		owner_seduce_outcome_become_lovers_option_effects = yes
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = { #I'm just here for the fun time!
+		name = quix_seduce_outcome.2022.b
+		trigger = { seduce_outcome_just_sex_trigger = yes } #Blocks this option for AI owners if the target is a player who said "lovers please"
+
+		owner_seduce_outcome_just_sex_effects = yes
+
+		ai_chance = {
+			base = 0
+			ai_value_modifier = {
+				ai_greed = 0.25
+				ai_vengefulness = 0.25
+			}
+		}
+	}
+
+	after = {
+		scope:target = {
+			trigger_event = quix_seduce_outcome.3021
+		}
+		show_as_tooltip = {
+			scope:scheme = {
+				end_scheme = yes
+			}
+		}
+	}
+}
+
+# Catacombs
+quix_seduce_outcome.2023 = {
+	type = character_event
+	title = quix_seduce_outcome.2023.t
+	desc = quix_seduce_outcome.2023.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	immediate = {
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		owner_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #Go for both consummation and relationship
+		name = quix_seduce_outcome.2023.a
+		trigger = { seduce_outcome_become_lovers_trigger = yes } #Enabled if a player target said "lovers please" or target is AI
+		
+		owner_seduce_outcome_become_lovers_option_effects = yes
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = { #I'm just here for the fun time!
+		name = quix_seduce_outcome.2023.b
+		trigger = { seduce_outcome_just_sex_trigger = yes } #Blocks this option for AI owners if the target is a player who said "lovers please"
+
+		owner_seduce_outcome_just_sex_effects = yes
+
+		ai_chance = {
+			base = 0
+			ai_value_modifier = {
+				ai_greed = 0.25
+				ai_vengefulness = 0.25
+			}
+		}
+	}
+
+	after = {
+		scope:target = {
+			trigger_event = quix_seduce_outcome.3021
+		}
+		show_as_tooltip = {
+			scope:scheme = {
+				end_scheme = yes
+			}
+		}
+	}
+}
+
+# Cabin in the woods
+quix_seduce_outcome.2024 = {
+	type = character_event
+	title = quix_seduce_outcome.2024.t
+	desc = quix_seduce_outcome.2024.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	immediate = {
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		owner_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #Go for both consummation and relationship
+		name = quix_seduce_outcome.2024.a
+		trigger = { seduce_outcome_become_lovers_trigger = yes } #Enabled if a player target said "lovers please" or target is AI
+		
+		owner_seduce_outcome_become_lovers_option_effects = yes
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = { #I'm just here for the fun time!
+		name = quix_seduce_outcome.2024.b
+		trigger = { seduce_outcome_just_sex_trigger = yes } #Blocks this option for AI owners if the target is a player who said "lovers please"
+
+		owner_seduce_outcome_just_sex_effects = yes
+
+		ai_chance = {
+			base = 0
+			ai_value_modifier = {
+				ai_greed = 0.25
+				ai_vengefulness = 0.25
+			}
+		}
+	}
+
+	after = {
+		scope:target = {
+			trigger_event = quix_seduce_outcome.3021
+		}
+		show_as_tooltip = {
+			scope:scheme = {
+				end_scheme = yes
+			}
+		}
+	}
+}
+
+# Country estate
+quix_seduce_outcome.2025 = {
+	type = character_event
+	title = quix_seduce_outcome.2025.t
+	desc = quix_seduce_outcome.2025.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	immediate = {
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		owner_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #Go for both consummation and relationship
+		name = quix_seduce_outcome.2025.a
+		trigger = { seduce_outcome_become_lovers_trigger = yes } #Enabled if a player target said "lovers please" or target is AI
+		
+		owner_seduce_outcome_become_lovers_option_effects = yes
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = { #I'm just here for the fun time!
+		name = quix_seduce_outcome.2025.b
+		trigger = { seduce_outcome_just_sex_trigger = yes } #Blocks this option for AI owners if the target is a player who said "lovers please"
+
+		owner_seduce_outcome_just_sex_effects = yes
+
+		ai_chance = {
+			base = 0
+			ai_value_modifier = {
+				ai_greed = 0.25
+				ai_vengefulness = 0.25
+			}
+		}
+	}
+
+	after = {
+		scope:target = {
+			trigger_event = quix_seduce_outcome.3021
+		}
+		show_as_tooltip = {
+			scope:scheme = {
+				end_scheme = yes
+			}
+		}
+	}
+}
+
+# Rock the Boat
+quix_seduce_outcome.2026 = {
+	type = character_event
+	title = quix_seduce_outcome.2026.t
+	desc = quix_seduce_outcome.2026.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	immediate = {
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		owner_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #Go for both consummation and relationship
+		name = quix_seduce_outcome.2026.a
+		trigger = { seduce_outcome_become_lovers_trigger = yes } #Enabled if a player target said "lovers please" or target is AI
+		
+		owner_seduce_outcome_become_lovers_option_effects = yes
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = { #I'm just here for the fun time!
+		name = quix_seduce_outcome.2026.b
+		trigger = { seduce_outcome_just_sex_trigger = yes } #Blocks this option for AI owners if the target is a player who said "lovers please"
+
+		owner_seduce_outcome_just_sex_effects = yes
+
+		ai_chance = {
+			base = 0
+			ai_value_modifier = {
+				ai_greed = 0.25
+				ai_vengefulness = 0.25
+			}
+		}
+	}
+
+	after = {
+		scope:target = {
+			trigger_event = quix_seduce_outcome.3021
+		}
+		show_as_tooltip = {
+			scope:scheme = {
+				end_scheme = yes
+			}
+		}
+	}
+}
+
+# Wine Cellar
+quix_seduce_outcome.2027 = {
+	type = character_event
+	title = quix_seduce_outcome.2027.t
+	desc = quix_seduce_outcome.2027.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	immediate = {
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		owner_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #Go for both consummation and relationship
+		name = quix_seduce_outcome.2027.a
+		trigger = { seduce_outcome_become_lovers_trigger = yes } #Enabled if a player target said "lovers please" or target is AI
+		
+		owner_seduce_outcome_become_lovers_option_effects = yes
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = { #I'm just here for the fun time!
+		name = quix_seduce_outcome.2027.b
+		trigger = { seduce_outcome_just_sex_trigger = yes } #Blocks this option for AI owners if the target is a player who said "lovers please"
+
+		owner_seduce_outcome_just_sex_effects = yes
+
+		ai_chance = {
+			base = 0
+			ai_value_modifier = {
+				ai_greed = 0.25
+				ai_vengefulness = 0.25
+			}
+		}
+	}
+
+	after = {
+		scope:target = {
+			trigger_event = quix_seduce_outcome.3021
+		}
+		show_as_tooltip = {
+			scope:scheme = {
+				end_scheme = yes
+			}
+		}
+	}
+}
+
+# The Honest Approach
+quix_seduce_outcome.2028 = {
+	type = character_event
+	title = quix_seduce_outcome.2028.t
+	desc = quix_seduce_outcome.2028.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	immediate = {
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		owner_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #Go for both consummation and relationship
+		name = quix_seduce_outcome.2028.a
+		trigger = { seduce_outcome_become_lovers_trigger = yes } #Enabled if a player target said "lovers please" or target is AI
+		
+		owner_seduce_outcome_become_lovers_option_effects = yes
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = { #I'm just here for the fun time!
+		name = quix_seduce_outcome.2028.b
+		trigger = { seduce_outcome_just_sex_trigger = yes } #Blocks this option for AI owners if the target is a player who said "lovers please"
+
+		owner_seduce_outcome_just_sex_effects = yes
+
+		ai_chance = {
+			base = 0
+			ai_value_modifier = {
+				ai_greed = 0.25
+				ai_vengefulness = 0.25
+			}
+		}
+	}
+
+	after = {
+		scope:target = {
+			trigger_event = quix_seduce_outcome.3021
+		}
+		show_as_tooltip = {
+			scope:scheme = {
+				end_scheme = yes
+			}
+		}
+	}
+}
+
+# Impatience
+quix_seduce_outcome.2029 = {
+	type = character_event
+	title = quix_seduce_outcome.2029.t
+	desc = quix_seduce_outcome.2029.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	immediate = {
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		owner_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #Go for both consummation and relationship
+		name = quix_seduce_outcome.2029.a
+		trigger = { seduce_outcome_become_lovers_trigger = yes } #Enabled if a player target said "lovers please" or target is AI
+		
+		owner_seduce_outcome_become_lovers_option_effects = yes
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = { #I'm just here for the fun time!
+		name = quix_seduce_outcome.2029.b
+		trigger = { seduce_outcome_just_sex_trigger = yes } #Blocks this option for AI owners if the target is a player who said "lovers please"
+
+		owner_seduce_outcome_just_sex_effects = yes
+
+		ai_chance = {
+			base = 0
+			ai_value_modifier = {
+				ai_greed = 0.25
+				ai_vengefulness = 0.25
+			}
+		}
+	}
+
+	after = {
+		scope:target = {
+			trigger_event = quix_seduce_outcome.3021
+		}
+		show_as_tooltip = {
+			scope:scheme = {
+				end_scheme = yes
+			}
+		}
+	}
+}
+
 # Both are Lustful - Unbridled Passion
 quix_seduce_outcome.2030 = {
 	type = character_event
@@ -335,6 +805,123 @@ quix_seduce_outcome.2030 = {
 	}
 }
 
+# My Reason to Live
+quix_seduce_outcome.2031 = {
+	type = character_event
+	title = quix_seduce_outcome.2031.t
+	desc = quix_seduce_outcome.2031.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	immediate = {
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		owner_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #Go for both consummation and relationship
+		name = quix_seduce_outcome.2031.a
+		trigger = { seduce_outcome_become_lovers_trigger = yes } #Enabled if a player target said "lovers please" or target is AI
+		
+		owner_seduce_outcome_become_lovers_option_effects = yes
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = { #I'm just here for the fun time!
+		name = quix_seduce_outcome.2031.b
+		trigger = { seduce_outcome_just_sex_trigger = yes } #Blocks this option for AI owners if the target is a player who said "lovers please"
+
+		owner_seduce_outcome_just_sex_effects = yes
+
+		ai_chance = {
+			base = 0
+			ai_value_modifier = {
+				ai_greed = 0.25
+				ai_vengefulness = 0.25
+			}
+		}
+	}
+
+	after = {
+		scope:target = {
+			trigger_event = quix_seduce_outcome.3021
+		}
+		show_as_tooltip = {
+			scope:scheme = {
+				end_scheme = yes
+			}
+		}
+	}
+}
+
+# I think we're alone now
+quix_seduce_outcome.2032 = {
+	type = character_event
+	title = quix_seduce_outcome.2032.t
+	desc = quix_seduce_outcome.2032.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	immediate = {
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		owner_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #Go for both consummation and relationship
+		name = quix_seduce_outcome.2032.a
+		trigger = { seduce_outcome_become_lovers_trigger = yes } #Enabled if a player target said "lovers please" or target is AI
+		
+		owner_seduce_outcome_become_lovers_option_effects = yes
+
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = { #I'm just here for the fun time!
+		name = quix_seduce_outcome.2032.b
+		trigger = { seduce_outcome_just_sex_trigger = yes } #Blocks this option for AI owners if the target is a player who said "lovers please"
+
+		owner_seduce_outcome_just_sex_effects = yes
+
+		ai_chance = {
+			base = 0
+			ai_value_modifier = {
+				ai_greed = 0.25
+				ai_vengefulness = 0.25
+			}
+		}
+	}
+
+	after = {
+		scope:target = {
+			trigger_event = quix_seduce_outcome.3021
+		}
+		show_as_tooltip = {
+			scope:scheme = {
+				end_scheme = yes
+			}
+		}
+	}
+}
 
 #Clandestine Tryst
 quix_seduce_outcome.2301 = {
@@ -347,18 +934,6 @@ quix_seduce_outcome.2301 = {
 	widget = {
 		gui = "event_window_widget_scheme"
 		container = "custom_widgets_container"
-	}
-
-	weight_multiplier = {
-		base = 0.5
-		modifier = { #More likely if you're in the same court
-			add = 0.7
-			seduction_target_is_close_trigger = yes
-		}
-		modifier = { #Less likely if you're the target's spouse
-			add = -0.2
-			scope:target = { is_spouse_of = root }
-		}
 	}
 
 	immediate = {
@@ -413,7 +988,7 @@ quix_seduce_outcome.2301 = {
 	}
 }
 
-#Hide them in your chambers for a few days.
+# Stow away
 quix_seduce_outcome.2302 = {
 	type = character_event
 	title = quix_seduce_outcome.2302.t
@@ -502,8 +1077,7 @@ quix_seduce_outcome.2302 = {
 	}
 }
 
-# Gregarious target(and owner), gushing compliments
-# Both witches
+# I Put A Spell On You...
 quix_seduce_outcome.2303 = {
 	type = character_event
 	title = quix_seduce_outcome.2303.t
@@ -658,8 +1232,6 @@ quix_seduce_outcome.2304 = {
 	}
 }
 
-
-#Love letter
 #Post Feast
 quix_seduce_outcome.2305 = {
 	type = character_event
@@ -754,8 +1326,6 @@ quix_seduce_outcome.2305 = {
 		}
 	}
 }
-
-
 
 ######################################################
 # SUCCESS EVENTS FOR TARGET (mirror of owner's)
