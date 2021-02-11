@@ -74,8 +74,7 @@ quix_seduce_outcome.2000 = {
 }
 
 #Trait Based
-# Viscious Love
-# Both are cruel
+# Cruel Intentions
 quix_seduce_outcome.2010 = {
 	type = character_event
 	title = quix_seduce_outcome.2010.t
@@ -144,7 +143,7 @@ quix_seduce_outcome.2010 = {
 }
 
 #General conditions
-# In The Stables
+# Roll in the Hay
 quix_seduce_outcome.2020 = {
 	type = character_event
 	title = quix_seduce_outcome.2020.t
@@ -203,7 +202,7 @@ quix_seduce_outcome.2020 = {
 	}
 }
 
-# In The Temple
+# Chapel of Love
 quix_seduce_outcome.2021 = {
 	type = character_event
 	title = quix_seduce_outcome.2021.t
@@ -262,7 +261,7 @@ quix_seduce_outcome.2021 = {
 	}
 }
 
-# Both are Lustful
+# Both are Lustful - Unbridled Passion
 quix_seduce_outcome.2030 = {
 	type = character_event
 	title = quix_seduce_outcome.2030.t
