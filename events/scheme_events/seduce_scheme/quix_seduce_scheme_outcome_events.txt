@@ -27,8 +27,8 @@ quix_seduce_outcome.2000 = {
 	}
 		
 	trigger = {
-	always = yes
-	#	scope:target = { highest_held_title_tier = tier_empire }
+	#always = yes
+	scope:target = { highest_held_title_tier = tier_empire }
 	}
 
 	immediate = {
