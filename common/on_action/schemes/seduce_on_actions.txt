@@ -88,6 +88,7 @@ seduce_generic_success = {
 		150 = quix_seduce_outcome.2010 # Cruel Intentions - both sadistic 
 		100 = quix_seduce_outcome.2020 # Roll in the Hay
 		100 = quix_seduce_outcome.2021 # Chapel of Love
+		150 = quix_seduce_outcome.2030 # Unbridled Passion
 		#150 = seduce_outcome.2010 # Both Drunkards
 		#100 = seduce_outcome.2020 # In the privy
 		#150 = seduce_outcome.2030 # Both Gluttonous
