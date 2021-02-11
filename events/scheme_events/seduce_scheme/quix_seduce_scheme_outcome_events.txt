@@ -12,6 +12,7 @@
 ######################################################
 namespace = quix_seduce_outcome
 
+# Based Specific conditions
 # Imperial Ambition
 quix_seduce_outcome.2000 = {
 	type = character_event
@@ -72,6 +73,7 @@ quix_seduce_outcome.2000 = {
 	}
 }
 
+#Trait Based
 # Viscious Love
 # Both are cruel
 quix_seduce_outcome.2010 = {
@@ -141,6 +143,7 @@ quix_seduce_outcome.2010 = {
 	}
 }
 
+#General conditions
 # In The Stables
 quix_seduce_outcome.2020 = {
 	type = character_event
