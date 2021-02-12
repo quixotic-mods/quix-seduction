@@ -140,6 +140,7 @@ quix_seduce_outcome.2010 = {
 		}
 	}
 }
+
 #General conditions
 # Roll in the Hay
 quix_seduce_outcome.2020 = {
@@ -1762,7 +1763,6 @@ quix_seduce_outcome.3305 = {
 		}
 	}
 }
-
 
 ######################################################
 # FAILURE EVENTS FOR OWNER
