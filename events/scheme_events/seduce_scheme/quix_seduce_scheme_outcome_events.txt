@@ -1153,7 +1153,6 @@ quix_seduce_outcome.2303 = {
 	}
 }
 
-#Meet under the open sky (primarily for hunters etc.)
 #Festival
 quix_seduce_outcome.2304 = {
 	type = character_event
@@ -1232,7 +1231,7 @@ quix_seduce_outcome.2304 = {
 	}
 }
 
-#Post Feast
+#Fit for a King
 quix_seduce_outcome.2305 = {
 	type = character_event
 	title = quix_seduce_outcome.2305.t
@@ -1372,7 +1371,6 @@ quix_seduce_outcome.3000 = {
 	}
 }
 
-# Drunkards
 # Both are cruel
 quix_seduce_outcome.3010 = {
 	type = character_event
@@ -1421,7 +1419,6 @@ quix_seduce_outcome.3010 = {
 	}
 }
 
-# Privy
 # Stables
 quix_seduce_outcome.3020 = {
 	type = character_event
@@ -1471,8 +1468,7 @@ quix_seduce_outcome.3020 = {
 	}
 }
 
-# Gluttons
-# Hedonists
+# Unbridled Passion
 quix_seduce_outcome.3030 = {
 	type = character_event
 	title = quix_seduce_outcome.2030.t
@@ -1521,95 +1517,7 @@ quix_seduce_outcome.3030 = {
 	}
 }
 
-# At the walls
-# In the camp
-quix_seduce_outcome.3040 = {
-	type = character_event
-	title = quix_seduce_outcome.2040.t
-	desc = quix_seduce_outcome.3040.desc
-	
-	theme = seduce_scheme
-	override_background = {
-		event_background = courtyard
-	}
-	left_portrait = scope:owner
-
-	immediate = {
-		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
-		target_seduce_outcome_sex_effect = yes 
-		
-		play_music_cue = "mx_cue_seduction"
-	}
-
-	option = { #We went for both consummation and relationship
-		name = quix_seduce_outcome.2040.a
-		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
-
-		set_relation_lover_through_seduction_effect = {
-			CHARACTER = scope:owner
-		}
-	}
-
-	option = { #We're just here for the fun time!
-		name = quix_seduce_outcome.2040.b
-		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
-
-		scope:scheme = {
-			end_scheme = yes
-		}
-	}
-
-	after = {
-		if = {
-			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
-			scope:owner = { remove_character_flag = consummation_and_relationship }
-		}
-	}
-}
-
-# Chaste
-# Old
-quix_seduce_outcome.3050 = {
-	type = character_event
-	title = quix_seduce_outcome.2050.t
-	desc = quix_seduce_outcome.3050.desc
-	
-	theme = seduce_scheme
-	left_portrait = scope:owner
-
-	immediate = {
-		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
-		target_seduce_outcome_sex_effect = yes
-	}
-
-	option = { #We went for both consummation and relationship
-		name = quix_seduce_outcome.2050.a
-		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
-
-		set_relation_lover_through_seduction_effect = {
-			CHARACTER = scope:owner
-		}
-	}
-
-	option = { #We're just here for the fun time!
-		name = quix_seduce_outcome.2050.b
-		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
-
-		scope:scheme = {
-			end_scheme = yes
-		}
-	}
-
-	after = {
-		if = {
-			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
-			scope:owner = { remove_character_flag = consummation_and_relationship }
-		}
-	}
-}
-
-#Owner comes to the target's chambers
-#Meet at an inn
+# Clandestine Tryst
 quix_seduce_outcome.3301 = {
 	type = character_event
 	title = quix_seduce_outcome.3301.t
@@ -1658,7 +1566,6 @@ quix_seduce_outcome.3301 = {
 	}
 }
 
-#Owner sneaks into target's court (distance seduction)
 #Hide in your chambers
 quix_seduce_outcome.3302 = {
 	type = character_event
@@ -1729,7 +1636,6 @@ quix_seduce_outcome.3302 = {
 	}
 }
 
-#Gregarious target(and owner), gushing compliments
 #Both Witches
 quix_seduce_outcome.3303 = {
 	type = character_event
@@ -1773,7 +1679,6 @@ quix_seduce_outcome.3303 = {
 	}
 }
 
-#Out in the woods
 #Festival
 quix_seduce_outcome.3304 = {
 	type = character_event
@@ -1858,398 +1763,12 @@ quix_seduce_outcome.3305 = {
 	}
 }
 
-#Seduction of spouse
-#Seduction of concubine
-quix_seduce_outcome.3306 = {
-	type = character_event
-	title = quix_seduce_outcome.3306.t
-	desc = quix_seduce_outcome.3306.desc
-	
-	theme = seduce_scheme
-	left_portrait = scope:owner
-
-	immediate = {
-		scope:owner = {
-			if = {
-				limit = { root = { is_ai = no }	}
-				assign_quirk_effect = yes
-			}
-		}
-		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
-		target_seduce_outcome_sex_effect = yes
-	}
-
-	option = { #We went for both consummation and relationship
-		name = quix_seduce_outcome.3306.a
-		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
-
-		set_relation_lover_through_seduction_effect = {
-			CHARACTER = scope:owner
-		}
-	}
-
-	option = { #We're just here for the fun time!
-		name = quix_seduce_outcome.2302.b
-		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
-
-		scope:scheme = {
-			end_scheme = yes
-		}
-	}
-
-	after = {
-		if = {
-			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
-			scope:owner = { remove_character_flag = consummation_and_relationship }
-		}
-	}
-}
-
-#Seduction of rival
-#Seduction of Spymaster
-quix_seduce_outcome.3307 = {
-	type = character_event
-	title = quix_seduce_outcome.3307.t
-	desc = quix_seduce_outcome.3307.desc
-	
-	theme = seduce_scheme
-	left_portrait = scope:owner
-
-	immediate = {
-		scope:owner = {
-			if = {
-				limit = { root = { is_ai = no }	}
-				assign_quirk_effect = yes
-			}
-		}
-		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
-		target_seduce_outcome_sex_effect = yes
-	}
-
-	option = { #We went for both consummation and relationship
-		name = quix_seduce_outcome.3307.a
-		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
-
-		set_relation_lover_through_seduction_effect = {
-			CHARACTER = scope:owner
-		}
-	}
-
-	option = { #We're just here for the fun time!
-		name = quix_seduce_outcome.3307.b
-		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
-
-		scope:scheme = {
-			end_scheme = yes
-		}
-	}
-
-	after = {
-		if = {
-			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
-			scope:owner = { remove_character_flag = consummation_and_relationship }
-		}
-	}
-}
-
-#Seduction of close family member
-#Seduction of twin
-quix_seduce_outcome.3308 = {
-	type = character_event
-	title = quix_seduce_outcome.3308.t
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					relation_with_character_is_sodomy_in_my_or_lieges_faith_trigger = { CHARACTER = scope:owner }
-				}
-				desc = quix_seduce_outcome.3308.desc_illigal
-			}
-			desc = quix_seduce_outcome.3308.desc_not_illigal
-		}
-	}
-	
-	theme = seduce_scheme
-	left_portrait = scope:owner
-
-	immediate = {
-		scope:owner = {
-			assign_quirk_effect = yes
-		}
-		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
-		target_seduce_outcome_sex_effect = yes
-	}
-
-	option = { #We went for both consummation and relationship
-		name = quix_seduce_outcome.3308.a
-		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
-
-		set_relation_lover_through_seduction_effect = {
-			CHARACTER = scope:owner
-		}
-	}
-
-	option = { #We're just here for the fun time!
-		name = quix_seduce_outcome.3307.b
-		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
-
-		scope:scheme = {
-			end_scheme = yes
-		}
-	}
-
-	after = {
-		if = {
-			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
-			scope:owner = { remove_character_flag = consummation_and_relationship }
-		}
-	}
-}
 
 ######################################################
 # FAILURE EVENTS FOR OWNER
 # 4000-4999
 ######################################################
 
-# Nice rejection - I don't think about you that way
 # Nice rejection - I need to work on myself
-quix_seduce_outcome.4001 = {
-	type = character_event
-	title = quix_seduce_outcome.4001.t
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = { scope:target = { relation_with_character_is_incestuous_in_my_faith_trigger = { CHARACTER = root } } }
-				desc = quix_seduce_outcome.4001.incest.desc
-			}
-			desc = quix_seduce_outcome.4001.regular.desc
-		}
-	}
-	
-	theme = seduce_scheme
-	left_portrait = scope:target
-	widget = {
-		gui = "event_window_widget_scheme"
-		container = "custom_widgets_container"
-	}
-	
-	trigger = {
-		OR = {
-			NOT = { exists = scope:scheme_discovered }
-			exists = scope:target_chose_nice_reject #Player chose this outcome
-		}
-	}
-
-	weight_multiplier = {
-		base = 0.75
-		modifier = {
-			reverse_opinion = {
-				target = scope:target
-				value >= high_positive_opinion
-			}
-			factor = 1.3
-		}
-		modifier = {
-			OR = {
-				has_relation_friend = scope:target
-				is_spouse_of = scope:target
-			}
-			factor = 1.3
-		}
-		modifier = { #Very unlikely if they don't dislike you
-			NOR = {
-				reverse_opinion = {
-					target = scope:target
-					value >= low_positive_opinion
-				}
-				AND = {
-					scope:target = { ai_compassion >= medium_positive_ai_value }
-					reverse_opinion = {
-						target = scope:target
-						value >= low_negative_opinion
-					}
-				}
-			}
-			factor = 0.1
-		}
-	}
-
-	immediate = {
-		scope:target = {
-			if = {
-				limit = { root = { is_ai = no }	}
-				assign_quirk_effect = yes
-			}
-		}
-	}
-
-	option = {
-		name = quix_seduce_outcome.4001.a
-
-		scope:target = { seduction_cooldown_for_character_effect = { CHARACTER = scope:owner } }
-
-		scope:scheme = {
-			end_scheme = yes
-		}
-	}
-}
-
-# Never! Hard reject
 # Thinks its a joke
-quix_seduce_outcome.4002 = {
-	type = character_event
-	title = quix_seduce_outcome.4001.t
-	desc = quix_seduce_outcome.4002.desc
-	
-	theme = seduce_scheme
-	left_portrait = scope:target
-	widget = {
-		gui = "event_window_widget_scheme"
-		container = "custom_widgets_container"
-	}
-	
-	trigger = {
-		OR = {
-			reverse_opinion = { #Dislikes you
-				target = scope:target
-				value < 0
-			}
-			AND = { #Thinks that you're ugly
-				scope:target = { ai_compassion < medium_positive_ai_value }
-				attraction < 0
-			}
-			ai_values_divergence = { #Very different
-				target = scope:target
-				value >= high_ai_values_divergence
-			}
-			scope:target = { has_trait = chaste } #Chaste
-			scope:target = { #This is not honorable
-				trait_is_shunned_or_criminal_in_my_or_lieges_faith_trigger = { TRAIT = adulterer GENDER_CHARACTER = scope:target }
-				OR = {
-					ai_honor >= low_positive_ai_value
-					has_trait = zealous
-					has_trait = honest
-				}
-			}
-		}
-		NOT = { exists = scope:scheme_discovered }
-		NOT = { is_spouse_of = scope:target }
-
-		# Disabled by Graceful Recovery Perk
-		NOT = { has_perk = graceful_recovery_perk }
-	}
-
-	weight_multiplier = {
-		base = 1
-		modifier = {
-			reverse_opinion = {
-				target = scope:target
-				value >= high_positive_opinion
-			}
-			factor = 0.1
-		}
-	}
-
-
-	option = {
-		name = quix_seduce_outcome.4002.a
-
-		scope:target = { seduction_block_character_effect = { CHARACTER = scope:owner } }
-
-		scope:scheme = {
-			end_scheme = yes
-		}
-	}
-}
-
-# Nice...? rejection - Thanks for the attention
 # non rejection
-quix_seduce_outcome.4100 = {
-	type = character_event
-	title = quix_seduce_outcome.4001.t
-	desc = {
-		desc = quix_seduce_outcome.4100.desc
-		first_valid = {
-			triggered_desc = {
-				trigger = { 
-					scope:target = { 
-						is_married = yes 
-						any_consort = { NOT = { this = scope:owner } }
-					} 
-				}
-				desc = quix_seduce_outcome.4100.desc_married
-			}
-			desc = quix_seduce_outcome.4100.desc_fallback
-		}
-	}
-	
-	theme = seduce_scheme
-	left_portrait = scope:target
-	widget = {
-		gui = "event_window_widget_scheme"
-		container = "custom_widgets_container"
-	}
-	
-	trigger = {
-		scope:target = {
-			is_ai = yes
-			OR = {
-				has_trait = seducer
-				has_trait = lustful
-				has_trait_malicious_trigger = yes
-			}
-			any_consort = { NOT = { this = scope:owner } }
-		}
-		NOT = { exists = scope:scheme_discovered }
-	}
-
-	weight_multiplier = {
-		base = 1
-		modifier = {
-			reverse_opinion = {
-				target = scope:target
-				value >= high_positive_opinion
-			}
-			factor = 1.3
-		}
-		modifier = {
-			has_trait_malicious_trigger = yes
-			factor = 1.2
-		}
-		modifier = {
-			has_trait = lustful
-			factor = 1.5
-		}
-		modifier = {
-			has_trait = seducer
-			factor = 2
-		}
-		modifier = {
-			OR = {
-				can_touch_someone_trigger = no
-				scope:target = { can_touch_someone_trigger = no }
-			}
-			factor = 0.5
-		}
-	}
-
-	immediate = {
-		scope:target = {
-			if = {
-				limit = { exists = primary_spouse }
-  				primary_spouse = { save_scope_as = target_spouse }
- 			}
-		}
-	}
-
-	option = {
-		name = quix_seduce_outcome.4100.a
-
-		scope:target = { seduction_cooldown_for_character_effect = { CHARACTER = scope:owner } }
-
-		scope:scheme = {
-			end_scheme = yes
-		}
-	}
-}
-
