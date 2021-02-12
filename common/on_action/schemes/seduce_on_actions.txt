@@ -67,7 +67,8 @@ seduce_ongoing_milestone_2 = {
 seduce_success = {
 	first_valid = {
 		seduce_outcome.2000 # Bedded the Pope!
-		quix_seduce_outcome.2000 # Bedded an Emperor!
+		quix_seduce_outcome.2000 # Imperial Ambition
+		quix_seduce_outcome.2303 # I put a Spell On You
 		seduce_outcome.2307 # Seduce rival/someone you dislike a lot
 		seduce_outcome.2308 # Seduce close family member
 		seduce_outcome.2306 # Spouse seduction
@@ -88,7 +89,20 @@ seduce_generic_success = {
 		150 = quix_seduce_outcome.2010 # Cruel Intentions - both sadistic 
 		100 = quix_seduce_outcome.2020 # Roll in the Hay
 		100 = quix_seduce_outcome.2021 # Chapel of Love
-		150 = quix_seduce_outcome.2030 # Unbridled Passion
+		100 = quix_seduce_outcome.2022 # Afternoon Delight
+		100 = quix_seduce_outcome.2023 # depths of passion
+		100 = quix_seduce_outcome.2024 # The primitive Experience
+		100 = quix_seduce_outcome.2025
+		100 = quix_seduce_outcome.2026
+		100 = quix_seduce_outcome.2027
+		100 = quix_seduce_outcome.2028
+		100 = quix_seduce_outcome.2029
+		150 = quix_seduce_outcome.2030
+		100 = quix_seduce_outcome.2031
+		100 = quix_seduce_outcome.2032
+		100 = quix_seduce_outcome.2304 # A Festive Evening
+		100 = quix_seduce_outcome.2305 # Fit for a King
+
 		#150 = seduce_outcome.2010 # Both Drunkards
 		#100 = seduce_outcome.2020 # In the privy
 		#150 = seduce_outcome.2030 # Both Gluttonous
