@@ -24,6 +24,11 @@
  quix_seduce_outcome.2022.a:0 "When it's right, it's right!"
  quix_seduce_outcome.2022.b:0 "We'll always have our memories."
 
+ quix_seduce_outcome.2023.t:0 "Depths of Passion"
+ quix_seduce_outcome.2023.desc:0 "I need a private place to profess my love for [target.GetTitledFirstName] - but where? It must be away from the prying eyes of servants, courtiers, vassals, and family members alike. All walls are thin, it needs to be some place isolated, where few have access or permission to go...And then the thought strikes me. The old catacombs! \n\n\After sending a messenger to [target.GetTitledFirstName], at the appointed time, we meet in our secret place, deep beneath the earth, where we can be certain we are alone. As I begin to delicately describe my feelings to [target.GetTitledFirstName], [target.GetSheHe] interrupts me, and instead conffesses [target.GetHerHis] feelings! I'm pleased to know the settings didn't damper my plans, as we embrace and kiss for a long time, feeling eachother's bodies through our clothes. A moment later, we are making love!"
+ quix_seduce_outcome.2023.a:0 "We won't always have to do this down here..."
+ quix_seduce_outcome.2023.b:0 "We've given the ancients something to think about."
+
  quix_seduce_outcome.2030.t:0 "Unbridled Passion"
  quix_seduce_outcome.2030.desc:0 "The farce must end. I know [target.GetTitledFirstName] wants me! And they know that I know! Our confidants have arranged a secret rendezvous at a nondescript and I shall finally put an end to the charade.\n\nWhen [target.GetTitledFirstName] arrives, I begin to make a clumsy confession of my love, until... I am silenced when [target.GetFirstName] puts a finger over my mouth. A moment later, we are both stripping off layers of clothing, with our eyes locked together. When our bodies meet, it is like magnetism, a vigorous collision. Hair is pulled, backs are scratched, and each gets a few bruises as a whirlwind of passion consumes us. I thought my lust and passion for carnality was unmatched, but yet, [target.GetTitledFirstName] seeks to surpass me!"
  quix_seduce_outcome.2030.a:0 "I love making love with you!"
