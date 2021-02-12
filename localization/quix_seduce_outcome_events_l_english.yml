@@ -54,6 +54,11 @@
  quix_seduce_outcome.2028.a:0 "Honesty is the best policy."
  quix_seduce_outcome.2028.b:0 "You know, I'm having second thoughts."
 
+ quix_seduce_outcome.2029.t:0 "Impatience."
+ quix_seduce_outcome.2029.desc:0 "I have grown tired of being toyed with by [target.GetTitledFirstName]. It is time for a direct confrontation. Either [target.GetSheHe] will stop leading me on, or I will end this scheme. I arrange a meeting with [target.GetHerHim] in secret. I will have an answer.\n\nI tell [target.GetHerHim] that I have been trying to express my feelings for many months, and that I believe [target.GetSheHe] knows and is simply using me for adoration.[target.GetTitledFirstName] seems shocked by this acqusation, and immediately denies it. [target.GetSheHe|U] tells me that [target.GetSheHe] has in fact, secretly been harboring feelings for ME! I start laughing with the relief of this, and [target.GetTitledFirstName] begins laughing too, and in our laughter we embrace, but are silenced when our lips meet. We drop to the floor and make love right then and there!"
+ quix_seduce_outcome.2029.a:0 "I should have said something sooner."
+ quix_seduce_outcome.2029.b:0 "I'm glad that's out of my system!"
+
  quix_seduce_outcome.2030.t:0 "Unbridled Passion"
  quix_seduce_outcome.2030.desc:0 "The farce must end. I know [target.GetTitledFirstName] wants me! And they know that I know! Our confidants have arranged a secret rendezvous at a nondescript and I shall finally put an end to the charade.\n\nWhen [target.GetTitledFirstName] arrives, I begin to make a clumsy confession of my love, until... I am silenced when [target.GetFirstName] puts a finger over my mouth. A moment later, we are both stripping off layers of clothing, with our eyes locked together. When our bodies meet, it is like magnetism, a vigorous collision. Hair is pulled, backs are scratched, and each gets a few bruises as a whirlwind of passion consumes us. I thought my lust and passion for carnality was unmatched, but yet, [target.GetTitledFirstName] seeks to surpass me!"
  quix_seduce_outcome.2030.a:0 "I love making love with you!"
