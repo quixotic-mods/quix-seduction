@@ -64,6 +64,11 @@
  quix_seduce_outcome.2030.a:0 "I love making love with you!"
  quix_seduce_outcome.2030.b:0 "A pleasure doing pleasure with you."
 
+ quix_seduce_outcome.2031.t:0 "I think we're alone now..."
+ quix_seduce_outcome.2031.desc:0 "I'm certain [target.GetTitledFirstName] is expressing interest in me, but I can't seem to find a way to break away from the crowd. If only we could just...run away. Wait, why not? I whisper in [target.GetHisHer] ear to come with me, and suddenly we are off, walking briskly away from everyone, and once around a corner, we start running, holding hands until everyone is far behind.\n\nPulls me into a thicket, and I fall onto [target.GetHerHim], and we laugh, and [target.GetSheHe] tells me that [target.GetSheHe] has been trying to get me alone all night! We make love right there, in the dirt, and spend several hours afterwards laying and talking." 
+ quix_seduce_outcome.2031.a:0 "We need a good excuse!"
+ quix_seduce_outcome.2031.b:0 "Maybe it's best to go our seperate ways..."
+
  quix_seduce_outcome.2301.t:0 "Clandestine Tryst"
  quix_seduce_outcome.2301.desc:0 "I do enjoy having a spy network at my disposal. My agents have aranged a secret meeting between [target.GetTitledFirstName] and I, in which I will profess my love to [target.GetHerHim]. We will go dressed incognito, and will go on foot, alone, as to not draw any attention. I will have agents looking out and have taken every step to ensure we will have...the utmost privacy.\n\nI make sure I wasn't followed by spending a few minutes in an alley keeping lookout, before I make my way to the appointed building. Inside, I find [target.GetTitledFirstName] completely nude, covered in oil, and eating olives by the fireplace. [target.GetSheHe] says \"You should take off that robe...\"\n\nIt appears my plot has worked! I obey [target.GetHerHim] promptly, and we spend the evening making passionate love!"
  quix_seduce_outcome.2301.a:0 "Yes! Yes!"
