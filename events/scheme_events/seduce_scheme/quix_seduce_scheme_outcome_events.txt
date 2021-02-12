@@ -319,7 +319,7 @@ quix_seduce_outcome.2022 = {
 	}
 }
 
-# Catacombs
+# Depths of Passion
 quix_seduce_outcome.2023 = {
 	type = character_event
 	title = quix_seduce_outcome.2023.t
@@ -378,7 +378,7 @@ quix_seduce_outcome.2023 = {
 	}
 }
 
-# Cabin in the woods
+# The Primitive Experience
 quix_seduce_outcome.2024 = {
 	type = character_event
 	title = quix_seduce_outcome.2024.t
