@@ -104,17 +104,17 @@ seduce_generic_success = {
 		100 = quix_seduce_outcome.2303 # I put a spell on you
 		100 = quix_seduce_outcome.2304 # A Festive Evening
 		100 = quix_seduce_outcome.2305 # Fit for a King
-		#150 = seduce_outcome.2010 # Both Drunkards
-		#100 = seduce_outcome.2020 # In the privy
-		#150 = seduce_outcome.2030 # Both Gluttonous
-		#100 = seduce_outcome.2040 # At the walls
-		#150 = seduce_outcome.2050 # Both chaste, at least one married
-		#100 = seduce_outcome.2301 # Go to the target's chambers
-		#150 = seduce_outcome.2302 # Sneak into target's court (long distance)
-		#150 = seduce_outcome.2303 # Gregarious target(and owner), gushing compliments
-		#150 = seduce_outcome.2304 # Meet under the open sky (for hunters etc.)
-		#100 = seduce_outcome.2305 # Love letter
-		#100 = seduce_outcome.2309 # Sex scene is generated
+		150 = seduce_outcome.2010 # Both Drunkards
+		100 = seduce_outcome.2020 # In the privy
+		150 = seduce_outcome.2030 # Both Gluttonous
+		100 = seduce_outcome.2040 # At the walls
+		150 = seduce_outcome.2050 # Both chaste, at least one married
+		100 = seduce_outcome.2301 # Go to the target's chambers
+		150 = seduce_outcome.2302 # Sneak into target's court (long distance)
+		150 = seduce_outcome.2303 # Gregarious target(and owner), gushing compliments
+		150 = seduce_outcome.2304 # Meet under the open sky (for hunters etc.)
+		100 = seduce_outcome.2305 # Love letter
+		100 = seduce_outcome.2309 # Sex scene is generated
 	}	
 }
 
