@@ -1273,7 +1273,7 @@ quix_seduce_outcome.2305 = {
 # 3000-3999
 ######################################################
 
-# Emperor
+# Imperial Ambition
 quix_seduce_outcome.3000 = {
 	type = character_event
 	title = quix_seduce_outcome.2000.t
@@ -1313,7 +1313,7 @@ quix_seduce_outcome.3000 = {
 	}
 }
 
-# Both are cruel
+# Cruel Intentions
 quix_seduce_outcome.3010 = {
 	type = character_event
 	title = quix_seduce_outcome.2010.t
@@ -1361,7 +1361,7 @@ quix_seduce_outcome.3010 = {
 	}
 }
 
-# Stables
+# Roll in the Hay
 quix_seduce_outcome.3020 = {
 	type = character_event
 	title = quix_seduce_outcome.2020.t
@@ -1395,6 +1395,447 @@ quix_seduce_outcome.3020 = {
 
 	option = { #We're just here for the fun time!
 		name = quix_seduce_outcome.2020.b
+		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
+
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+
+	after = {
+		if = {
+			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
+			scope:owner = { remove_character_flag = consummation_and_relationship }
+		}
+	}
+}
+
+# Chapel of Love
+quix_seduce_outcome.3021 = {
+	type = character_event
+	title = quix_seduce_outcome.2021.t
+	desc = quix_seduce_outcome.3021.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:owner
+
+	immediate = {
+		scope:owner = {
+			if = {
+				limit = { root = { is_ai = no }	}
+				assign_quirk_effect = yes
+			}
+		}
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		target_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #We went for both consummation and relationship
+		name = quix_seduce_outcome.2021.a
+		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
+
+		set_relation_lover_through_seduction_effect = {
+			CHARACTER = scope:owner
+		}
+	}
+
+	option = { #We're just here for the fun time!
+		name = quix_seduce_outcome.2021.b
+		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
+
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+
+	after = {
+		if = {
+			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
+			scope:owner = { remove_character_flag = consummation_and_relationship }
+		}
+	}
+}
+
+# Afternoon Delight
+quix_seduce_outcome.3022 = {
+	type = character_event
+	title = quix_seduce_outcome.2022.t
+	desc = quix_seduce_outcome.3022.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:owner
+
+	immediate = {
+		scope:owner = {
+			if = {
+				limit = { root = { is_ai = no }	}
+				assign_quirk_effect = yes
+			}
+		}
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		target_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #We went for both consummation and relationship
+		name = quix_seduce_outcome.2022.a
+		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
+
+		set_relation_lover_through_seduction_effect = {
+			CHARACTER = scope:owner
+		}
+	}
+
+	option = { #We're just here for the fun time!
+		name = quix_seduce_outcome.2022.b
+		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
+
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+
+	after = {
+		if = {
+			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
+			scope:owner = { remove_character_flag = consummation_and_relationship }
+		}
+	}
+}
+
+# depths of passion
+quix_seduce_outcome.3023 = {
+	type = character_event
+	title = quix_seduce_outcome.2023.t
+	desc = quix_seduce_outcome.3023.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:owner
+
+	immediate = {
+		scope:owner = {
+			if = {
+				limit = { root = { is_ai = no }	}
+				assign_quirk_effect = yes
+			}
+		}
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		target_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #We went for both consummation and relationship
+		name = quix_seduce_outcome.2023.a
+		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
+
+		set_relation_lover_through_seduction_effect = {
+			CHARACTER = scope:owner
+		}
+	}
+
+	option = { #We're just here for the fun time!
+		name = quix_seduce_outcome.3023.b
+		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
+
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+
+	after = {
+		if = {
+			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
+			scope:owner = { remove_character_flag = consummation_and_relationship }
+		}
+	}
+}
+
+# The Primitive Experience
+quix_seduce_outcome.3024 = {
+	type = character_event
+	title = quix_seduce_outcome.2024.t
+	desc = quix_seduce_outcome.3024.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:owner
+
+	immediate = {
+		scope:owner = {
+			if = {
+				limit = { root = { is_ai = no }	}
+				assign_quirk_effect = yes
+			}
+		}
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		target_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #We went for both consummation and relationship
+		name = quix_seduce_outcome.2024.a
+		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
+
+		set_relation_lover_through_seduction_effect = {
+			CHARACTER = scope:owner
+		}
+	}
+
+	option = { #We're just here for the fun time!
+		name = quix_seduce_outcome.2024.b
+		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
+
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+
+	after = {
+		if = {
+			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
+			scope:owner = { remove_character_flag = consummation_and_relationship }
+		}
+	}
+}
+
+# At our leisure
+quix_seduce_outcome.3025 = {
+	type = character_event
+	title = quix_seduce_outcome.2025.t
+	desc = quix_seduce_outcome.3025.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:owner
+
+	immediate = {
+		scope:owner = {
+			if = {
+				limit = { root = { is_ai = no }	}
+				assign_quirk_effect = yes
+			}
+		}
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		target_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #We went for both consummation and relationship
+		name = quix_seduce_outcome.2025.a
+		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
+
+		set_relation_lover_through_seduction_effect = {
+			CHARACTER = scope:owner
+		}
+	}
+
+	option = { #We're just here for the fun time!
+		name = quix_seduce_outcome.2025.b
+		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
+
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+
+	after = {
+		if = {
+			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
+			scope:owner = { remove_character_flag = consummation_and_relationship }
+		}
+	}
+}
+
+# Rock the Boat
+quix_seduce_outcome.3026 = {
+	type = character_event
+	title = quix_seduce_outcome.2026.t
+	desc = quix_seduce_outcome.3026.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:owner
+
+	immediate = {
+		scope:owner = {
+			if = {
+				limit = { root = { is_ai = no }	}
+				assign_quirk_effect = yes
+			}
+		}
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		target_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #We went for both consummation and relationship
+		name = quix_seduce_outcome.2026.a
+		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
+
+		set_relation_lover_through_seduction_effect = {
+			CHARACTER = scope:owner
+		}
+	}
+
+	option = { #We're just here for the fun time!
+		name = quix_seduce_outcome.2026.b
+		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
+
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+
+	after = {
+		if = {
+			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
+			scope:owner = { remove_character_flag = consummation_and_relationship }
+		}
+	}
+}
+
+# Wine Cellar
+quix_seduce_outcome.3027 = {
+	type = character_event
+	title = quix_seduce_outcome.2027.t
+	desc = quix_seduce_outcome.3027.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:owner
+
+	immediate = {
+		scope:owner = {
+			if = {
+				limit = { root = { is_ai = no }	}
+				assign_quirk_effect = yes
+			}
+		}
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		target_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #We went for both consummation and relationship
+		name = quix_seduce_outcome.2027.a
+		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
+
+		set_relation_lover_through_seduction_effect = {
+			CHARACTER = scope:owner
+		}
+	}
+
+	option = { #We're just here for the fun time!
+		name = quix_seduce_outcome.2027.b
+		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
+
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+
+	after = {
+		if = {
+			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
+			scope:owner = { remove_character_flag = consummation_and_relationship }
+		}
+	}
+}
+
+# The honest Approach
+quix_seduce_outcome.3028 = {
+	type = character_event
+	title = quix_seduce_outcome.2028.t
+	desc = quix_seduce_outcome.3028.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:owner
+
+	immediate = {
+		scope:owner = {
+			if = {
+				limit = { root = { is_ai = no }	}
+				assign_quirk_effect = yes
+			}
+		}
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		target_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #We went for both consummation and relationship
+		name = quix_seduce_outcome.2028.a
+		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
+
+		set_relation_lover_through_seduction_effect = {
+			CHARACTER = scope:owner
+		}
+	}
+
+	option = { #We're just here for the fun time!
+		name = quix_seduce_outcome.2028.b
+		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
+
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+
+	after = {
+		if = {
+			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
+			scope:owner = { remove_character_flag = consummation_and_relationship }
+		}
+	}
+}
+
+# Impatience
+quix_seduce_outcome.3029 = {
+	type = character_event
+	title = quix_seduce_outcome.2029.t
+	desc = quix_seduce_outcome.3029.desc
+	
+	theme = seduce_scheme
+	override_background = {
+		event_background = courtyard
+	}
+	left_portrait = scope:owner
+
+	immediate = {
+		scope:owner = {
+			if = {
+				limit = { root = { is_ai = no }	}
+				assign_quirk_effect = yes
+			}
+		}
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		target_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #We went for both consummation and relationship
+		name = quix_seduce_outcome.2029.a
+		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
+
+		set_relation_lover_through_seduction_effect = {
+			CHARACTER = scope:owner
+		}
+	}
+
+	option = { #We're just here for the fun time!
+		name = quix_seduce_outcome.2029.b
 		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
 
 		scope:scheme = {
@@ -1444,6 +1885,55 @@ quix_seduce_outcome.3030 = {
 
 	option = { #We're just here for the fun time!
 		name = quix_seduce_outcome.2030.b
+		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
+
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+
+	after = {
+		if = {
+			limit = { scope:owner = { has_character_flag = consummation_and_relationship } }
+			scope:owner = { remove_character_flag = consummation_and_relationship }
+		}
+	}
+}
+
+#I think we're alone now 
+quix_seduce_outcome.3031 = {
+	type = character_event
+	title = quix_seduce_outcome.2031.t
+	desc = {
+		desc = quix_seduce_outcome.3031.a.desc
+		triggered_desc = {
+			trigger = {
+				drinks_alcohol_trigger = yes
+			}
+			desc = quix_seduce_outcome.3031.alcohol.desc
+		}
+		desc = quix_seduce_outcome.3031.b.desc
+	}
+	
+	theme = seduce_scheme
+	left_portrait = scope:owner
+
+	immediate = {
+		#Either runs had_sex_with_effect or shows a tooltip of it (effect is always just run once per success):
+		target_seduce_outcome_sex_effect = yes
+	}
+
+	option = { #We went for both consummation and relationship
+		name = quix_seduce_outcome.2031.a
+		trigger = { scope:owner = { has_character_flag = consummation_and_relationship } }
+
+		set_relation_lover_through_seduction_effect = {
+			CHARACTER = scope:owner
+		}
+	}
+
+	option = { #We're just here for the fun time!
+		name = quix_seduce_outcome.2031.b
 		trigger = { scope:owner = { NOT = { has_character_flag = consummation_and_relationship } } }
 
 		scope:scheme = {
@@ -1713,3 +2203,19 @@ quix_seduce_outcome.3305 = {
 # Nice rejection - I need to work on myself
 # Thinks its a joke
 # non rejection
+
+
+
+
+
+
+
+
+
+
+# Had a dream
+# You and me in the war of the end times
+# And I believe
+# California succumbed to the fault lines
+# We heaved relief
+# As scored of innocents died
