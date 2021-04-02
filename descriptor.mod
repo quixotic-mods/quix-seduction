@@ -1,6 +1,6 @@
-version="1.2.2.a"
+version="1.3.1.001"
 tags={
 	"Events"
 }
 name="Quixotic Seduction"
-supported_version="1.2.2"
+supported_version="1.3.1"

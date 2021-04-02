@@ -1,6 +1,6 @@
 # Quixotic Seduction - Crusader Kings 3 Mod
-**Version: 1.2.2.001**
-*by El Ingenioso Hidalgo y Caballero Don Quixote de la Mancha ~ https://DonQuixote.Games/*
+**Version: 1.3.1.001**
+*by El Ingenioso Hidalgo y Caballero Don Quixote de la Mancha ~ https://www.patreon.com/donquixote
 
 **Adds 20 NEW Seduction Outcome Events**
 
@@ -45,4 +45,4 @@ Thanks to:
 * My most noble squire, Sancho Panza.
 
 ## Fine Print
-Cruasder Kings 3 is property of Paradox Interactive. Mod is made in compliance with Paradox Interactive Mod Policy. This mod, to the extent I have to do so under the law and Paradox TOS/EULA, is published under the Creative Commons Attribution-NonCommercial-ShareAlike license (CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/). This means you can copy it, distribute it, and modify it, as long as you do not use it in a commercial work (which would be against Paradox mod policy as well), you attribute me (Don Quixote) in your readme file and descriptions, and any forks or submods are shared under the same license. I would also ask a personal favor that you do not use the name Quixotic in the title just to not confuse people as I will hopefully be publishing many more mods under this moniker. And of course, I would be always indebted to you for sharing my web page: https://www.donquixote.games/
+Cruasder Kings 3 is property of Paradox Interactive. Mod is made in compliance with Paradox Interactive Mod Policy. This mod, to the extent I have to do so under the law and Paradox TOS/EULA, is published under the Creative Commons Attribution-NonCommercial-ShareAlike license (CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/). This means you can copy it, distribute it, and modify it, as long as you do not use it in a commercial work (which would be against Paradox mod policy as well), you attribute me (Don Quixote) in your readme file and descriptions, and any forks or submods are shared under the same license. I would also ask a personal favor that you do not use the name Quixotic in the title just to not confuse people as I will hopefully be publishing many more mods under this moniker. And of course, I would be always indebted to you for sharing my web patreon: https://www.patreon.com/donquixote
